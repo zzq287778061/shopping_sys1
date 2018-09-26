@@ -28,6 +28,7 @@ import sys
 from multiprocessing import *
 from socket import *
 import traceback
+import pymongo
 
 
 # 将用户信息保存在Client类中
