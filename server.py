@@ -126,6 +126,7 @@ def main():
             c, addr = s.accept()
         except KeyboardInterrupt:
             print('服务端退出')
+            break
         except Exception as e:
             traceback.print_exc()
             continue
